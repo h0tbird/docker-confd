@@ -4,7 +4,23 @@
 # Configure the service:
 #------------------------------------------------------------------------------
 
-echo '[Init] Configuring the service...'
+: ${CONFD_BACKEND:='etcd'}
+: ${CONFD_CLIENT_CA_KEYS:=''}
+: ${CONFD_CLIENT_CERT:=''}
+: ${CONFD_CLIENT_KEY:=''}
+: ${CONFD_CONFDIR:='/etc/confd'}
+: ${CONFD_CONFIG_FILE:=''}
+: ${CONFD_INTERVAL:='600'}
+: ${CONFD_KEEP_STAGE_FILE:='false'}
+: ${CONFD_LOG_LEVEL:=''}
+: ${CONFD_NODE:=''}
+: ${CONFD_NOOP:='false'}
+: ${CONFD_ONETIME:='false'}
+: ${CONFD_PREFIX:='/'}
+: ${CONFD_SCHEME:='http'}
+: ${CONFD_SRV_DOMAIN:=''}
+: ${CONFD_VERSION:='false'}
+: ${CONFD_WATCH:='false'}
 
 #------------------------------------------------------------------------------
 # Run:
