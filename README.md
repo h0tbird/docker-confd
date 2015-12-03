@@ -9,5 +9,7 @@ docker run -it --rm \
 --name confd \
 --net host \
 --volume /etc/confd:/etc/confd \
-h0tbird/confd -node 127.0.0.1:2379 -watch
+h0tbird/confd \
+-node 127.0.0.1:2379 \
+-watch
 ```
