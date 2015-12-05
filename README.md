@@ -8,8 +8,10 @@ A containerized confd service:
 docker run -it --rm \
 --name confd \
 --net host \
+--volume /etc:/host/etc \
+--volume /run:/host/run \
 --volume /etc/confd:/etc/confd \
-h0tbird/confd \
+h0tbird/confd:v0.11.0-1 \
 -node 127.0.0.1:2379 \
 -watch
 ```
