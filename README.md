@@ -1,6 +1,6 @@
-# docker-confd
+# confd
 
-[![Build Status](https://travis-ci.org/katosys/docker-confd.svg?branch=master)](https://travis-ci.org/katosys/docker-confd)
+[![Build Status](https://travis-ci.org/katosys/confd.svg?branch=master)](https://travis-ci.org/katosys/confd)
 
 A containerized confd service:
 
