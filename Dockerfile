@@ -2,14 +2,14 @@
 # Set the base image for subsequent instructions:
 #------------------------------------------------------------------------------
 
-FROM frolvlad/alpine-glibc:alpine-3.4
+FROM frolvlad/alpine-glibc:alpine-3.6
 MAINTAINER Marc Villacorta Morera <marc.villacorta@gmail.com>
 
 #------------------------------------------------------------------------------
 # Environment variables:
 #------------------------------------------------------------------------------
 
-ENV CONFD_VERSION="0.11.0" \
+ENV CONFD_VERSION="0.13.0" \
     CONFD_URL="https://github.com/kelseyhightower/confd/releases/download"
 
 #------------------------------------------------------------------------------
